@@ -1,0 +1,10 @@
+.toolbar li{
+	display: inline;
+	border: solid 1px;
+	border-color: #f3f3f3 #bbb #bbb #f3f3f3;
+	margin: 0px;
+	padding: .5em;
+	zoom:1;
+	
+
+}

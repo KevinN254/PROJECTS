@@ -1,0 +1,9 @@
+span{
+	color:red;
+}
+div.one span{
+	color:blue;
+}
+div.two span{
+	color:green;
+}

@@ -1,0 +1,13 @@
+div{
+	background-color: #0000aa;
+	font-family: verdana;
+	font-size: 40px;
+	color: white;
+	padding-left: 400px
+}
+body{
+	background-color: green
+}
+a.hover{
+	color: hotpink;
+}
