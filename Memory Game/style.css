@@ -1,0 +1,23 @@
+body{
+	background-color: lightblue;
+}
+div{
+	width: 253px;
+	height: 255px;
+	outline-style: ridge;
+	display: inline-block;
+	margin: 10px;
+	text-align : center;
+	color: #000;
+	background-size: c;
+	background: url("http://www.cavestory.org/forums/media/groom-cat-avatar-100x100-13830.1474/full");
+}
+
+img{
+	height: 254px;
+	width : 252px;
+	opacity:0;
+}
+h1{
+	text-align: center;
+}

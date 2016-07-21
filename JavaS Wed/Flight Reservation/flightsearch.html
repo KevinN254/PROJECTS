@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Airline</title>
+       
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="search.js"></script>
+    </head>
+
+    <div id="content">
+
+ <body>
+    <h1>Airline Reservation Form</h1>
+
+    <div id="form">
+
+        <h2>Flight Search</h2>
+
+        <form>
+            From:   <select id="departureCity">
+
+                     <option >Atlanta</option>
+                     <option >Chicago</option>
+                     <option >New York</option>
+                     <option >Miami</option>
+                     <option >Orlando</option>
+
+                    </select>
+
+                <br/>
+
+            To  :   <select id="destinationCity">
+
+                     <option >Atlanta</option>
+                     <option >Chicago</option>
+                     <option >New York</option>
+                     <option >Miami</option>
+                     <option >Orlando</option>
+                 
+                    </select>
+
+        </form>
+        
+        <div>
+            <span id="roundTrip">Round Trip: <input type="radio" name="trip" />
+            <span id="oneWay"> One Way: <input type="radio" name="trip" />
+        </div>
+
+        <br>
+
+        <div> 
+            Departure Date: <input type= "date" id="departureDate"> 
+        </div>
+
+        <br>
+
+        <div id="returnDate">  
+            Return Date: <input type= "date" id="returnDate">
+        </div>
+
+        <br>
+            <input type="button" Value="Search" id="search">
+            <input type="button" Value="Cancel" id="cancel"> 
+            <br>
+            <p id="searchResult"></p>
+    
+    </div>
+ </body> 
+  </div>  
+</html>

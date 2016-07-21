@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head><title>Paper|Rock|Scissors</title>
+</head>
+<body>
+	<script>
+	var userChoice= prompt("Do you choose Paper, Rock or Scissors?")
+
+	var computerChoice= Math.random();
+
+	
+
+	var choices=("Rock","Paper","Scissors")
+
+	if (computerChoice<.34){
+
+		computerChoice= "choice1";
+		}
+
+		else if(computerChoice<.66){
+
+			computerChoice="choice2";
+		}
+			else{
+				computerChoice="choice3";
+			}
+
+var compare= function(choice1,choice2){
+
+	if(userChoice===computerChoice){
+
+		return "It is a draw";
+	}
+
+	if(choice1===choice2){
+
+		return "Paper wins";
+	}
+
+		else if(choice1===choice3){
+
+			return "Rock wins";
+	}
+			else{
+				"Scissors wins";
+			}
+
+
+		}
+
+		
+
+
+	
+
+
+	</script>
+
+
+
+</body>
+</html>

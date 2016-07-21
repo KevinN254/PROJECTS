@@ -1,0 +1,26 @@
+<DOCTYPE.html>
+<html>
+<head><title>Compliment Giver</title>
+<body>
+<script>
+		var first=prompt(" Enter the first person's name");
+		var second=prompt(" Enter the second person's name");
+		var third=prompt(" Enter the third person's name");
+		var compliment= " is a person.";
+
+		alert(complimentGiver(first, second, third, compliment));
+
+		function complimentGiver(a,b,c,compliment)
+		//abc = first, second, third
+		{
+			var firstCompliment= first + compliment;
+			var secondCompliment= second + compliment;
+			var thirdCompliment= third + compliment;
+
+			return firstCompliment + secondCompliment + thirdCompliment;
+		}
+
+</script>
+
+</body>
+</html>
